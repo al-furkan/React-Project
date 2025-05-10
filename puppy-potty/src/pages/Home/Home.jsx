@@ -7,6 +7,9 @@ import AppPromotion from './../../components/AppPromotion/AppPromotion';
 import Product from '@/components/Product/Product';
 import Features from '@/components/Features/Features';
 import AppScreenshots from './../../components/AppScreenshots/AppScreenshots';
+import Testimonial from '@/components/Testimonial/Testimonial';
+import Download from '@/components/Download/Download';
+import Footer from '@/components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -19,6 +22,9 @@ const Home = () => {
       < Product />
       <Features />
       <AppScreenshots />
+      <Testimonial />
+      <Download />
+      <Footer />
     </>
   
   )
