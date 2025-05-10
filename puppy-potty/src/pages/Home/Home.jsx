@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './../../components/Header/Header';
-import Banner from '@/components/Banner/banner';
+import Banner from '@/components/Banner/Banner';
 import Cards from '@/components/Cards/Cards';
 import About from '@/components/About/About';
 import AppPromotion from './../../components/AppPromotion/AppPromotion';
