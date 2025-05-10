@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LinkList } from './LinkList'; // ✅ correct
+import Globalcontainer from '../GlobalContainer/Globalcontainer';
+import { Button } from '../ui/button';
 // import Logo from './image/logo.svg';
 
 const Header = () => {
   return (
+    <Globalcontainer>
     <header className="flex items-center justify-between p-6 shadow-md">
-      <div className="flex items-center gap-2">
-      <img src="/image/logo.png" alt="Logo" className="w-10 h-10" />
-
-        <span className="text-lg font-bold">Puppy Potty Log</span>
+      <div className="flex w-[20%] items-center gap-2">
+      <img src="./img/logo.png" alt="Logo" className="w-30 h-10" />
       </div>
 
       <nav className="hidden md:flex gap-6 text-sm text-gray-700">
@@ -21,12 +22,15 @@ const Header = () => {
       </nav>
 
       <div className="flex gap-2">
-        <button className="px-4 py-2 border rounded-md text-sm">Log In</button>
-        <button className="px-4 py-2 bg-blue-500 text-white rounded-md text-sm hover:bg-blue-600">
+      <Button className="px-4 py-2 bg-[#F9CE3B] text-white rounded-md text-sm hover:bg-[#F9CE3B]">
           Sign Up
-        </button>
+        </Button>
+        <Button className="px-4 py-2 border rounded-md text-sm">Log In</Button>
+      
       </div>
+    
     </header>
+    </Globalcontainer>
   );
 };
 
