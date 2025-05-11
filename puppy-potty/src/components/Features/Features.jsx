@@ -6,25 +6,25 @@ const Features = () => {
           title: "Dog walking",
           description:
             "Lorem ipsum dolor sit amet consectetur. Elementum dictum scelerisque arcu facilisis. Commodo semper ut nullam velit.",
-          icon: "/path/to/dog-icon.png", // Replace with actual icon path
+          icon: "/img/dogIcon.png", // Replace with actual icon path
         },
         {
           title: "Dog Grooming",
           description:
             "Lorem ipsum dolor sit amet consectetur. Elementum dictum scelerisque arcu facilisis. Commodo semper ut nullam velit.",
-          icon: "/path/to/dog-icon.png",
+          icon: "/img/dogIcon.png",
         },
         {
           title: "Meet A Sitter",
           description:
             "Lorem ipsum dolor sit amet consectetur. Elementum dictum scelerisque arcu facilisis. Commodo semper ut nullam velit.",
-          icon: "/path/to/dog-icon.png",
+          icon: "/img/dogIcon.png",
         },
         {
           title: "Dog Training",
           description:
             "Lorem ipsum dolor sit amet consectetur. Elementum dictum scelerisque arcu facilisis. Commodo semper ut nullam velit.",
-          icon: "/path/to/dog-icon.png",
+          icon: "/img/dogIcon.png",
         },
       ];
     
@@ -52,7 +52,7 @@ const Features = () => {
             {/* Center Phone Image */}
             <div className="w-full md:w-80 flex justify-center">
               <img
-                src="/path/to/mobile-mockup.png" // Replace with actual phone mockup image
+                src="img/phoneN.png" // Replace with actual phone mockup image
                 alt="App Interface"
                 className="w-full max-w-xs"
               />

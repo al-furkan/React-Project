@@ -8,7 +8,7 @@ const About = () => {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-yellow-400 overflow-hidden">
                 <img
-                  src="/path/to/your/image.png" // Replace with actual image path
+                  src="./img/about.png" // Replace with actual image path
                   alt="Dog Training"
                   className="object-cover w-full h-full"
                 />

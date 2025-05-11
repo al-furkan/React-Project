@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import { LinkList } from './LinkList'; // ✅ correct
 import Globalcontainer from '../GlobalContainer/Globalcontainer';
 import { Button } from '../ui/button';
+import Sidebar from '../Sidebar/Sidebar';
 // import Logo from './image/logo.svg';
 
 const Header = () => {
   return (
     <Globalcontainer>
-    <header className="flex items-center justify-between p-6 shadow-md">
+  <header className="flex items-center justify-between p-6  relative">
+    <Sidebar />
+    {/* ...rest of your header */}
       <div className="flex w-[20%] items-center gap-2">
       <img src="./img/logo.png" alt="Logo" className="w-30 h-10" />
       </div>

@@ -4,7 +4,7 @@ const Product = () => {
     const products = [
         {
           id: 1,
-          image: "/path/to/product.png", // Replace with actual path
+          image: "/img/Rectangle.jpg", // Replace with actual path
           title: "Food Eco",
           features: [
             "100% Organic Material",
@@ -14,7 +14,7 @@ const Product = () => {
         },
         {
           id: 2,
-          image: "/path/to/product.png",
+          image: "/img/Rectangle.jpg",
           title: "Food Eco",
           features: [
             "100% Organic Material",
@@ -24,7 +24,7 @@ const Product = () => {
         },
         {
           id: 3,
-          image: "/path/to/product.png",
+          image: "/img/Rectangle.jpg",
           title: "Food Eco",
           features: [
             "100% Organic Material",

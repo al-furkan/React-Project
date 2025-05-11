@@ -7,7 +7,7 @@ const Testimonial = () => {
             "Lorem ipsum dolor sit amet consectetur. Neque sed quis placerat semper feugiat. Nisi egestas lorem non sed aenean risus sit vel volutpat. Commodo et malesuada neque tortor convallis.",
           name: "Dennis Callis",
           time: "11:30 PM",
-          image: "/images/client1.jpg", // Replace with actual image paths
+          image: "/img/Ellipse 10.jpg", // Replace with actual image paths
           rating: 5,
         },
         {
@@ -15,7 +15,7 @@ const Testimonial = () => {
             "Lorem ipsum dolor sit amet consectetur. Neque sed quis placerat semper feugiat. Nisi egestas lorem non sed aenean risus sit vel volutpat. Commodo et malesuada neque tortor convallis.",
           name: "Dennis Callis",
           time: "11:30 PM",
-          image: "/images/client2.jpg",
+          image: "/img/Ellipse 10.jpg",
           rating: 5,
         },
       ];

@@ -35,12 +35,12 @@ const AppPromotion = () => {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="flex gap-4">
                 <img
-                  src="/path/to/mobile-left.png" // Replace with actual image
+                  src="./img/iPhone-14-Mockup 8.png" // Replace with actual image
                   alt="App screen 1"
                   className="w-40 md:w-48 rounded-xl shadow-lg"
                 />
                 <img
-                  src="/path/to/mobile-right.png" // Replace with actual image
+                  src="./img/iPhone-14-Mockup 8.png" // Replace with actual image
                   alt="App screen 2"
                   className="w-40 md:w-48 rounded-xl shadow-lg"
                 />

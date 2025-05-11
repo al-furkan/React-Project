@@ -12,7 +12,7 @@ const AppScreenshots = () => {
             {/* Screenshot 1 */}
             <div className="max-w-xs shadow-xl rounded-xl overflow-hidden">
               <img
-                src="/path/to/screenshot-left.png"
+                src="/img/log.png"
                 alt="App Screenshot Left"
                 className="w-full object-cover"
               />
@@ -21,7 +21,7 @@ const AppScreenshots = () => {
             {/* Screenshot 2 */}
             <div className="max-w-xs shadow-xl rounded-xl overflow-hidden">
               <img
-                src="/path/to/screenshot-center.png"
+                src="/img/iPhone-14-Mockup 8.png"
                 alt="App Screenshot Center"
                 className="w-full object-cover"
               />
@@ -30,7 +30,7 @@ const AppScreenshots = () => {
             {/* Screenshot 3 */}
             <div className="max-w-xs shadow-xl rounded-xl overflow-hidden">
               <img
-                src="/path/to/screenshot-right.png"
+                src="/img/pre.png"
                 alt="App Screenshot Right"
                 className="w-full object-cover"
               />
