@@ -27,7 +27,7 @@ const Download = () => {
         {/* Image Content */}
         <div className="flex-1">
           <img
-            src="/images/tracking-sheet-cover.jpg" // Replace with actual image path
+            src="./img/dog.png" // Replace with actual image path
             alt="Puppy tracking sheet cover"
             className="rounded-lg shadow-lg w-full max-w-xs md:max-w-sm mx-auto"
           />

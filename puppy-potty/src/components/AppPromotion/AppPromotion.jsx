@@ -19,14 +19,14 @@ const AppPromotion = () => {
               <p className="text-lg font-semibold mb-3">Download The App</p>
               <div className="flex justify-center md:justify-start gap-4">
                 <img
-                  src="/path/to/google-play.png" // Replace with actual path
+                  src="img/google-play.png" // Replace with actual path
                   alt="Google Play"
-                  className="w-36 h-12 object-contain"
+                  className="w-36 h-12 object-scale-down"
                 />
                 <img
-                  src="/path/to/app-store.png" // Replace with actual path
+                  src="/img/App-Store.png" // Replace with actual path
                   alt="App Store"
-                  className="w-36 h-12 object-contain"
+                  className="w-36 h-12 object-scale-down"
                 />
               </div>
             </div>
@@ -35,14 +35,9 @@ const AppPromotion = () => {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="flex gap-4">
                 <img
-                  src="./img/iPhone-14-Mockup 8.png" // Replace with actual image
+                  src="./img/App screnshots.png" // Replace with actual image
                   alt="App screen 1"
-                  className="w-40 md:w-48 rounded-xl shadow-lg"
-                />
-                <img
-                  src="./img/iPhone-14-Mockup 8.png" // Replace with actual image
-                  alt="App screen 2"
-                  className="w-40 md:w-48 rounded-xl shadow-lg"
+                  className="w-60 md:w-80 rounded-xl shadow-lg"
                 />
               </div>
             </div>

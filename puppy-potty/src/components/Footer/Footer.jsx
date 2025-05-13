@@ -8,8 +8,7 @@ const Footer = () => {
         {/* Left: Logo & Text */}
         <div>
           <div className="flex items-center mb-4">
-            <img src="/images/logo.png" alt="Puppy Potty Log" className="w-10 h-10 mr-2" />
-            <span className="text-xl font-bold">Puppy <span className="text-yellow-400">Potty</span> Log</span>
+            <img src="/img/logo.png" alt="Puppy Potty Log" className=" object-scale-down" />
           </div>
           <p className="text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
@@ -33,8 +32,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Download Our App</h3>
           <p className="text-sm mb-4">Available on Google Play and App Store.</p>
           <div className="flex space-x-3">
-            <img src="/images/google-play.png" alt="Google Play" className="w-28" />
-            <img src="/images/app-store.png" alt="App Store" className="w-28" />
+            <img src="/img/google-play.png" alt="Google Play" className="w-28 object-scale-down" />
+            <img src="/img/App-Store.png" alt="App Store" className="w-28 object-scale-down" />
           </div>
         </div>
       </div>

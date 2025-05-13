@@ -21,18 +21,25 @@ const Banner = () => {
         </div>
 
         {/* Right Side: Images */}
-        <div className="relative flex justify-center items-center">
-          <img
-            src="./img/banner.png"
-            alt="Banner"
-            className="w-full h-auto max-w-[500px]"
-          />
-          <img
-            src="./img/bannerDot.png"
-            alt="Dog"
-            className="absolute -top-10 right-0 w-24 md:w-40"
-          />
-        </div>
+<div className="relative flex justify-center items-center">
+  <img
+    src="./img/banner.png"
+    alt="Banner"
+    className="w-full h-auto max-w-[500px]"
+  />
+  <img
+    src="./img/bannerDot.png"
+    alt="Dog"
+    className="absolute -top-10 right-0 w-24 md:w-40"
+  />
+  <img
+    src="./img/bannerDot.png"
+    alt="Dog"
+    className="absolute bottom-0 left-0 w-24 md:w-40"
+  />
+</div>
+
+
         
       </div>
     </Globalcontainer>
